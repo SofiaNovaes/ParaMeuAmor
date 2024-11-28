@@ -1,0 +1,153 @@
+:root {
+    --preto: black;
+    --vermelho: rgb(255, 0, 119);
+    --amarelo: yellow;
+    --azul: blue;
+}
+
+body {
+    
+    background: #ff8bcfc2;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.chama-texto h2 {
+    color: var(--vermelho);
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+
+header {
+    transition: filter 1.5s ease-in-out;
+}
+
+header:hover {
+    filter: brightness(500%);
+}
+
+.chama-texto-coracao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    
+    border-bottom: solid #dd34aa 10px;
+
+    background: lightpink linear-gradient(5deg, #dd34aa, #ac498300);
+
+    width: 100%;
+}
+
+.chama-coracao img {
+    height: 410px;
+    margin-top: -58px;
+    margin-bottom: -42px;
+    
+}
+
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+.bate-coracao {
+    animation: blink-animation 0.5s steps(1, end) 0.1s infinite;
+
+}
+
+.chama-presente h3 {
+    color: var(--vermelho);
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 36px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+/* width: 100%;  */
+
+}
+
+.chama-presente h3:hover {
+    color: var(--amarelo);
+
+}
+
+#container img {
+    height: 300px;
+    border-radius: 70px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    text-align: center;
+
+}
+
+#container img {
+    opacity: 0.5;
+
+}
+
+#container img:hover {
+    opacity: 1;
+    border: solid 3px rgb(238, 14, 100);
+
+}
+
+.caixa-presente  {
+    flex-basis: calc(27%);
+    text-align: center;
+    width: 100%;
+
+}
+
+footer {
+    background: radial-gradient(rgb(255, 118, 225), transparent);
+    color:#c0006a ;
+    bottom: 5px;
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    padding-bottom: 25px;
+     
+}
+footer p {
+    text-align: center;
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width:auto;
+
+}
+
+main  {
+width: 100%;
+
+}
